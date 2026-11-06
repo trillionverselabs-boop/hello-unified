@@ -1,0 +1,7 @@
+name: hello-unified
+version: "1.0"
+description: Unified package — one repo, agent tool + desktop pane + status chip.
+provides_tools:
+  - hello_unified
+provides_hooks:
+  - post_tool_call
